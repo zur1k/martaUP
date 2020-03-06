@@ -1,0 +1,12 @@
+.footer {
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        color: #272727;
+        padding: 20px 40px 17px;
+    }
+
+    &__link a+a {
+        margin-left: 30px;
+    }
+}

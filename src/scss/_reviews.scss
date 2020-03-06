@@ -1,0 +1,64 @@
+.reviews {
+    background-image: url(../images/reviews-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 38px 0 82px;
+
+    &__title {
+        max-width: 384px;
+        color: #fff;
+        margin: 0 auto 48px;
+    }
+
+    &__items {
+        max-width: 940px;
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+
+    &__item {
+        width: 300px;
+        border-radius: 5px;
+        background: rgba(255, 255, 255, 0.2);
+        padding: 35px 20px 20px;
+        color: #fff;
+    }
+
+    &__item-head {
+        display: flex;
+        margin-bottom: 13px;
+    }
+    &__item-head img {
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+    &__item-name
+    {
+        font-weight: 600;
+    }
+    &__item-position
+    {
+        opacity: .5;
+    }
+    &__item-text
+    {
+        text-align: center;
+        padding-top: 39px;
+        position: relative;
+    }
+    &__item-text::before
+    {
+        content:"“" ;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 1.3;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+
+    }
+
+}

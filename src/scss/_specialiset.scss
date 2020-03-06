@@ -1,0 +1,43 @@
+.specialiset
+    {
+    padding:55px 0 93px;
+    background: url(../images/special-bg.svg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    color: #202020;
+    text-align: center;
+
+
+    &__title
+    {
+        margin-bottom: 96px;
+    }
+    &__items
+    {   
+        display: flex;
+        justify-content: space-between;
+        max-width: 980px;
+        margin: 0 auto ;
+    }
+    &__item
+    {
+        width: 280px;
+    }
+    &__item-img
+    {
+        margin-bottom: 23px;
+        min-height: 159x;
+    }
+    &__item-title
+    {
+        font-size: 20px;
+        margin-bottom: 11px;
+        font-weight: 700;
+    }
+    &__item-text
+    {
+        padding: 0 10px;
+        color: #272727;
+        opacity: .7;
+    }
+}
